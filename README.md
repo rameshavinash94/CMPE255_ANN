@@ -1,5 +1,11 @@
 **Use state of art libraries for Approximate nearest neighbor search for your favorite data set**
 
+
+**Info About Dataset: NIPS Papers dataset**
+Neural Information Processing Systems (NIPS) is one of the top machine learning conferences in the world. It covers topics ranging from deep learning and computer vision to cognitive science and reinforcement learning.
+This dataset includes the title, authors, abstracts, and extracted text for all NIPS papers to date (ranging from the first 1987 conference to 2016 conference).
+
+
 We can split ANN algorithms into mostly three distinct categories: trees(Annoy), hashes(LSH), and graphs(HSNW).
 
 **LHS(Locality-sensitive hashing):**
