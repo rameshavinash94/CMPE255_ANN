@@ -1,4 +1,4 @@
-# CMPE255_ANN
+**Use state of art libraries for Approximate nearest neighbor search for your favorite data set**
 
 We can split ANN algorithms into mostly three distinct categories: trees(Annoy), hashes(LSH), and graphs(HSNW).
 
