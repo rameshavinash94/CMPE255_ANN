@@ -1,6 +1,6 @@
 # CMPE255_ANN
 
-We can split ANN algorithms into mostly three distinct categories; trees(Annoy), hashes(LSH), and graphs(HSNW).
+We can split ANN algorithms into mostly three distinct categories: trees(Annoy), hashes(LSH), and graphs(HSNW).
 
 **LHS:**
 LSH is a hashing based algorithm to identify approximate nearest neighbors.
@@ -17,8 +17,10 @@ Construct a table with the calculated distance between each sub-vector and each 
 They construct forests (collection of trees) as their data structure by splitting the dataset into subsets. Each tree is constructed in the following way, we pick two points at random and split the space into two by their hyperplane, we keep splitting into the subspaces recursively until the points associated with a node is small enough. 
 
 _Summary:_ Annoy's algorithm
+
 _Preprocessing time:_
 Build up a bunch of binary trees. For each tree, split all points recursively by random hyperplanes.
+
 _Query time:_
 Insert the root of each tree into the priority queue
 Until we have _search_k _candidates, search all the trees using the priority queue
